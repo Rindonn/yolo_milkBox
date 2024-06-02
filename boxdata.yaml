@@ -1,0 +1,5 @@
+train: D:\yolo_kong\dataset\images\train
+val: D:\yolo_kong\dataset\images\val
+
+nc: 9  # 类别数
+names: ['Meiji','Morinaga','Hokkaido','Grapejuice', 'Yotsubateishibo','Meijiteitoushitsu','Yukijirushimegu','FantaGrape','FantaOrange',]  # 类别名称
