@@ -1,7 +1,7 @@
 '''
 Date: 2023-12-08 04:27:40
 @ LastEditors: Rindon
-@ LastEditTime: 2024-06-02 20:51:06
+@ LastEditTime: 2024-06-03 08:42:25
 FilePath: \yolov5\train.py
 '''
 # YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
@@ -32,7 +32,7 @@ print(interpreter.get_output_details())
 #打印输出大小
 C:\\Users\\Fergus\\Desktop\\yolov5\\runs\\train\\exp9\\weights\\best.pt
 python export.py --weights runs/train/exp9/weights/best.pt --include tflite
-python train.py --data boxdata.yaml --cfg yolov5s+SEAttention.yaml --weights yolov5s.pt --epoch 100 --batch-size 24 --device 0
+python train.py --data boxdata.yaml --cfg yolov5s+ShuffleAttention.yaml --weights yolov5s.pt --epoch 100 --batch-size 16 --device 0
 python train.py --img 640 --batch 16 --epochs 3 --data dataset.yaml --weights yolov5s.pt --project runs/train --name exp
 
 """

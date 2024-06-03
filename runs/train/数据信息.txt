@@ -1,0 +1,36 @@
+1.   exp9_     yolov5s1000_time_07：10(CPU)
+2.   exp29   _SimAM1000_time_0323(GPU)
+3.   exp11    SEAttention250 time 0030s（GPU）
+4.   exp12    ShuffleAttention250 time 0030s（GPU）
+5.   exp14    yolov5s250 time 0030s（GPU）
+6.   exp15    yolov5s500 time 0060s（GPU）
+7.   exp16    yolov5s50   time 0010s（GPU）
+8.   exp18    yolov5s100   time 0012s（GPU）
+9.   exp19    SimAM250   time 0012s（GPU）
+10. exp20    SEAttention1000   time 0216s（GPU）
+11. exp21    SEAttention500   time 0060s（GPU）
+12. exp22    ShuffleAttention1000   time 0226s（GPU）
+13. exp23    ShuffleAttention500   time 0107s（GPU）
+14. exp25    SimAM500   time 0108s（GPU）
+15. exp26    SimAM50   time 0007s（GPU）
+16. exp27    SimAM100   time 0017s（GPU）
+17. exp28    SEAttention50   time 0007s（GPU）
+18. exp30    SEAttention100   time 0012s（GPU）
+19. exp31    ShuffleAttention100   time 0012s（GPU）
+20. exp32    ShuffleAttention50   time 0012s（GPU）
+21. exp33    SimAM250（vel.2）   time 0012s（GPU）
+22. exp34    yolov5s1000（vel.2）   time 0215s（GPU）
+23. exp35    5类yolov5s（）   time 0625s（GPU）
+24. exp40	  5类yolov5s（）   time 0625s（GPU）maxconfidence
+25. exp41	  5类SimAM（模型里2没改的版本）   time 0625s（GPU）maxconfidence
+26. exp42	  9类yolov5s（）   time 0625s（GPU）maxconfidence
+
+
+
+
+
+
+
+
+
+

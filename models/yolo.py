@@ -1,7 +1,7 @@
 '''
 Date: 2023-12-08 04:27:40
 @ LastEditors: Rindon
-@ LastEditTime: 2024-06-02 20:54:18
+@ LastEditTime: 2024-06-03 08:42:48
 FilePath: \yolov5\models\yolo.py
 '''
 # YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
@@ -336,10 +336,10 @@ def parse_model(d, ch):  # model_dict, input_channels(3)
                 n = 1
         elif m is nn.BatchNorm2d:
             args = [ch[f]]
-        elif m is SEAttention:  #Add SEattention 通道注意力机制
-            args = [ch[f]]   
-        # elif m in (SEAttention, ShuffleAttention):  #Add SEattention ShuffleAttention 通道注意力机制
-        #     args = [ch[f]] 
+        #elif m is SEAttention:  #Add SEattention 通道注意力机制
+        #    args = [ch[f]]   
+        elif m in (SEAttention, ShuffleAttention):  #Add SEattention ShuffleAttention 通道注意力机制
+            args = [ch[f]] 
         elif m is Concat:
             c2 = sum(ch[x] for x in f)
         # TODO: channel, gw, gd
