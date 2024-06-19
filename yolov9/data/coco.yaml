@@ -1,7 +1,7 @@
 # path: ../datasets/coco  # dataset root dir
-train: G:\yolov9\yolov9-main\data\images\train  # train images (relative to 'path') 118287 images
-val: G:\yolov9\yolov9-main\data\images\val  # val images (relative to 'path') 5000 images
-test: G:\yolov9\yolov9-main\data\images\val # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+train: dataset\images\train  # train images (relative to 'path') 118287 images
+val: dataset\images\val  # val images (relative to 'path') 5000 images
+test: dataset\images\val # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 # Classes
 names:
